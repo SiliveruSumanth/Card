@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glowing Image Card Flip</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+    <h3>Traditional in Saree</h3>
+    <div class="flip-container" onclick="flipImage()">
+      <div class="flipper" id="flipper">
+        <div class="front">
+          <img src="https://i.ibb.co/wr8MyPQb/Bride.png" alt="Front Image">
+        </div>
+        <div class="back">
+          <img src="https://i.postimg.cc/fVYRcwgm/geethu1-removebg-preview.png" alt="Bride">
+        </div>
+      </div>
+    </div>
+    <p class="caption">Grace wrapped in tradition.</p>
+    <div class="button-group">
+      <button class="btn" id="likeBtn" onclick="toggleLike(event)">Like</button>
+      <button class="btn">Download</button>
+      <button class="btn">Share</button>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
